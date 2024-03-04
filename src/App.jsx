@@ -13,7 +13,7 @@ function App() {
         <Toaster richColors position="top-center"/>
       <Navbar />
         <Routes>
-          <Route path="/" index element={<Home />}></Route>
+          <Route path="/" index={true} element={<Home />}></Route>
           <Route
             path="/cuestonarios/:id"
             element={<CuestonariosByUser />}
